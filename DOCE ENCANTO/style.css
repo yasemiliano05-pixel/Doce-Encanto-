@@ -8,7 +8,7 @@
     --texto-claro: #fff3eb;
     --texto-escuro: #000;
     --marron-dark: #230e07e7;
-    --rodape: #C19A6B;
+    --rodape: #3b2a13;
     --border: #ffffff;
    /*fim*/
 
@@ -223,6 +223,7 @@ nav > a {
     font-family: var(--titulo-principal);
     font-size: var(--texto-secao-inferior-size);
     font-weight: var(--titulo-weight);
+    color: var(--texto-claro);
    
    
 }
@@ -238,9 +239,11 @@ nav > a {
     justify-content: center;
     align-items: center;
     
-    gap: 40px;
+  gap: 180px;
+  margin-bottom: 100px;
    
 }
+
 
 
 ul, li{
@@ -249,15 +252,29 @@ ul, li{
     font-weight: var(--titulo-secundario-weight);
     text-decoration: none;
     list-style: none;
+    color: var(--texto-claro);
+    margin-top: 30px;
+    
+    
    
 }
+.subtitulo {
+    white-space: pre-wrap;
+    display: flex;
+}
+.subtitulo > h3 {
+    color: var(--texto-claro);
+    
+}
+
 
 .direitos {
-   padding: 40px;
+   padding: 30px;
    text-align: center;
    font-family:var(--texto--principal);
    font-size: var(--texto-secundario-size);
    font-weight: var(--titulo-secundario-weight);
+   color: var(--texto-claro);
   
 }
 
