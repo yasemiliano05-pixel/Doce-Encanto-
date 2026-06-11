@@ -230,8 +230,9 @@ nav > a {
 
 
 .rodape{
+
     margin-top: 180px;
-    background-color: var(--rodape);
+   
 }
 
 .rodape-lista {
@@ -240,7 +241,12 @@ nav > a {
     align-items: center;
     
   gap: 180px;
-  margin-bottom: 100px;
+  padding: 30px;
+   background-color: var(--rodape);
+   border-radius: 24px;
+    box-shadow: 0px 5px 5px #888888;
+
+
    
 }
 
@@ -267,21 +273,42 @@ ul, li{
     
 }
 
+.sociais > img {
+   width: 54px;
+ 
+}
+
+.redes-sociais {
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   gap: 20px;
+  padding: 40px;
+  background-color: var(--destaque);
+  
+}
+
+
+
 
 .direitos {
-   padding: 30px;
+   padding: 40px;
    text-align: center;
    font-family:var(--texto--principal);
    font-size: var(--texto-secundario-size);
    font-weight: var(--titulo-secundario-weight);
    color: var(--texto-claro);
+   background-color: var(--destaque);
+
   
 }
 
 @media (max-width: 320px) {
     body {
-    min-width: 320px;
+    width: 320px;
 }
-    
+    header {
+
+    }
 }
 
