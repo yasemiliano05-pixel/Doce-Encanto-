@@ -1,155 +1,154 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/style/style.css">
     <title>Doce Encanto</title>
 </head>
+
 <body>
     <header>
-        
-        <nav>
-            <a>Início</a>
-            <a>Cardápio</a>
-            <a>Produtos</a>
-            <a>Sobre Nós</a>
-            <a>Contato</a>
-        </nav>
-       <section class="banner">
-        <div class="texto-cabecalho">
-         <h1>Doce Encanto</h1>
-         <h2>Descubra sobremesas artesanais feitas
-com ingredientes selecionados para tornar
-cada momento especial.</h2>
-         <button class="botoes">Comprar Agora</button>
-         <button class="botoes">Conheça Nossos Produtos</button>
-         </div>
-       </section>
 
-    </header>
-     
-    <main>
-        <section class="secao-bolos">
-            <div class="texto-secao-bolos">
-            <div class="titulo-card">
-            <h2>Nossos Bolos</h2>
-            <p>Escolha entre nossas deliciosas sobremas preparadas com carinho.</p>
-            </div>
-            </div>
-          <div class="cards">
-            <div class="card">
-                 <img src="./src/assets/images/cafe-artesanal.jpeg" alt="">
-                 <div class="texto-card">
-                <h2>Café Especial</h2>
-                <p>Café artesanal</p>
-                <button class="botao-card">➤</button>
-                </div>
-            </div>
-            <div class="card">
-                <img src="./src/assets/images/bolo-chocolate.jpeg" alt="">
-                <div class="texto-card">
-                <h2>Bolo de Chocolate</h2>
-                <p>Massa macia com recheio cremoso</p>
-                 <button class="botao-card">➤</button>
-                 </div>
-            </div>
-            <div class="card">
-                <img src="./src/assets/images/bolo-vanilla.jpeg" alt="">
-                <div class="texto-card">
-                <h2>Bolo de Baunilha</h2>
-                <p>Cobertura suave e sabor delicado</p>
-                 <button class="botao-card">➤</button>
-                 </div>
-            </div>
+        <nav>
+            <a href="#text-header">Início</a>
+            <a href="#section-cakes">Cardápio</a>
+            <a href="#section-lower">Produtos</a>
+            <a href="#section-contact">Contato</a>
+        </nav>
+        <section class="banner">
+            <div id="text-header" class="text-header">
+                <h1>Doce Encanto</h1>
+                <h2>Descubra sobremesas artesanais feitas <br>com ingredientes selecionados para <br>tornar
+                    cada momento especial.</h2>
+                <button class="buttons">Comprar Agora</button>
+                <button class="buttons">Conheça Nossos Produtos</button>
             </div>
         </section>
-          <section class="secao-inferior">
-           <div class="imagem-secao-inferior">
-            <img src="./src/assets/images/cafe-premium.svg" alt="">
-           </div>
-           <div class="texto-secao-inferior">
-            <h2>Café Premium</h2>
- <p>Experimente nossas bebidas especiais
- preparadas com grãos selecionados e acompanhamentos irresistíveis.</p>
-            <button class="botao-inferior">🢂</button>
+
+    </header>
+
+    <main>
+        <section id="section-cakes" class="section-cakes">
+            <div class="text-section-cakes">
+                <div class="title-card">
+                    <h2>Nossos Bolos</h2>
+                    <p>Escolha entre nossas deliciosas sobremas preparadas com carinho.</p>
+                </div>
             </div>
-          </section>
+            <div id="section-cards" class="cards">
+                <div class="card">
+                    <img src="./src/assets/images/artisanal-coffe.jpeg" alt="Imagem de cafe artesanal">
+                    <article class="text-card">
+                        <h2>Café Especial</h2>
+                        <p>Café artesanal</p>
+                        <button class="button-card">➤</button>
+                    </article>
+                </div>
+                <div class="card">
+                    <img src="./src/assets/images/chocolate-cake.jpeg" alt="Imagem de um bolo de chocolate">
+                    <article class="text-card">
+                        <h2>Bolo de Chocolate</h2>
+                        <p>Massa macia com recheio cremoso</p>
+                        <button class="button-card">➤</button>
+                    </article>
+                </div>
+                <div class="card">
+                    <img src="./src/assets/images/vanilla-cake.jpeg" alt="Imagem de um bolo de baunilha">
+                    <article class="text-card">
+                        <h2>Bolo de Baunilha</h2>
+                        <p>Cobertura suave e sabor delicado</p>
+                        <button class="button-card">➤</button>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="section-lower" class="section-lower">
+            <div class="image-section-lower">
+                <img src="./src/assets/images/premium-cake.svg" alt="Imagem de um cafe">
+            </div>
+            <article class="text-section-lower">
+                <h2>Café Premium</h2>
+                <p>Experimente nossas bebidas especiais <br>preparadas com grãos selecionados e acompanhamentos
+                    irresistíveis.</p>
+                <button class="button-lower">🢂</button>
+            </article>
+        </section>
     </main>
-    
-    <footer class="rodape"> 
 
-    <div class="titulo-rodape">
-     <h2>Doce Encanto</h2>
-     </div>
-  
-    <div class="rodape-lista">
+    <footer id="section-contact" class="footer">
+        <div class="footer-text">
+            <div class="title-footer">
+                <h2>Doce Encanto</h2>
+            </div>
 
-     <div class="secao-final">
-        <div class="subtitulo">
-        <img src="./src/assets/images/icon-cafe.svg" alt="">
-     <h3> ENTRE EM CONTATO</h3>
-     </div>
-      <ul>
-     <li>São Paulo - SP <br>
-Rua das Flores, 123 - Jardim Paulistano
-     </li>
-     <li>(11) 99999-0000
-     </li>
-     <li>contato@doceencanto.com
-     </li>
-     <li>@doceencanto
-     </li>
-     </ul>
-     </div>
+            <div class="footer-list">
 
-    <div class="secao-final">
-        <div class="subtitulo">
-        <img src="./src/assets/images/icon-link.svg" alt="">
-     <h3> LINKS RÁPIDOS</h3>
-     </div>
-        <ul>
-      <li>> Início</li>
-      <li>> Cardápio</li>
-      <li>> Produtos</li>
-      <li>> Sobre Nós</li>
-      <li>> Contato</li>
-      </ul>
-      </div>
+                <div class="section-end">
+                    <div class="caption">
+                        <img src="./src/assets/images/coffe-icon.svg" alt="Icone de um cafe">
+                        <h3> ENTRE EM CONTATO</h3>
+                    </div>
+                    <ul>
+                        <li>São Paulo - SP <br>
+                            Rua das Flores, 123 - Jardim Paulistano
+                        </li>
+                        <li>(11) 99999-0000
+                        </li>
+                        <li>contato@doceencanto.com
+                        </li>
+                        <li>@doceencanto
+                        </li>
+                    </ul>
+                </div>
 
-    <div class="secao-final">
-        <div class="subtitulo">
-    <img src="./src/assets/images/icon-relogio.svg" alt="">
- <h3> HORÁRIO DE FUNCIONAMENTO</h3>
+                <div class="section-end">
+                    <div class="caption">
+                        <img src="./src/assets/images/link-icon.svg" alt="Icone de link">
+                        <h3> LINKS RÁPIDOS</h3>
+                    </div>
+                    <a href="#text-header">> Início</a>
+                    <a href="#section-cakes">> Cardápio</a>
+                    <a href="#section-lower">> Produtos</a>
+                    <a href="#section-contact">> Contato</a>
+                </div>
 
- </div>
-     <ul>
-        <li>Segunda - Sexta <br>
-08h às 20h</li>
-     <li>Sábado <br>
-09h às 22h</li>
-     <li>Domingo <br>
-09h às 18h</li>
-    </ul>
-   </div>
-</div>
- <div class="redes-sociais">
-    <div class="sociais">
-    <img src="./src/assets/images/instagram.png" alt="">
-    </div>
-    <div class="sociais">
-    <img src="./src/assets/images/twitter.png" alt="">
-    </div>
-    <div class="sociais">
-    <img src="./src/assets/images/whatsapp.png" alt="">
-    </div>
-    <div class="sociais">
-    <img src="./src/assets/images/facebook.png" alt="">
-    </div>
-   </div>
-   <div class="direitos">
-   &copy;2026 Doce Encanto. Todos os direitos reservados.
-   </div>
+                <div class="section-end">
+                    <div class="caption">
+                        <img src="./src/assets/images/clock-icon.svg" alt="icone de um relogio">
+                        <h3> HORÁRIO DE FUNCIONAMENTO</h3>
+
+                    </div>
+                    <ul>
+                        <li>Segunda - Sexta <br>
+                            08h às 20h</li>
+                        <li>Sábado <br>
+                            09h às 22h</li>
+                        <li>Domingo <br>
+                            09h às 18h</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="networks-social">
+            <div class="social">
+                <img src="./src/assets/images/instagram.png" alt="Foto do instagram">
+            </div>
+            <div class="social">
+                <img src="./src/assets/images/twitter.png" alt="Foto do twitter">
+            </div>
+            <div class="social">
+                <img src="./src/assets/images/whatsapp.png" alt="Foto de whatsapp">
+            </div>
+            <div class="social">
+                <img src="./src/assets/images/facebook.png" alt="Foto de facebook">
+            </div>
+        </div>
+        <div class="rights">
+            &copy;2026 Doce Encanto. Todos os direitos reservados.
+        </div>
     </footer>
 </body>
+
 </html>
