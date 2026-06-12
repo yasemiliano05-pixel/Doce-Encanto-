@@ -75,7 +75,7 @@ nav>a {
 
 }
 
-.buttons {
+.button-header {
     padding: 20px 8px;
     border-radius: 8px;
     font-family: var(--text-main);
