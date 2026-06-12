@@ -13,7 +13,7 @@
     /*fim*/
 
     /*textos*/
-    --titulo-principal: 'Licorice', cursive;
+    --titulo-principal: 'Licorice', sans-serif;
     --titulo-weight: 700;
     --texto-size-cabecalho: 120px;
     --titulo-size-card: 25px;
@@ -35,12 +35,16 @@
     border: none;
 }
 
+/*corpo do html*/
+
 body {
 
     width: 100%;
     height: 100%;
     background-color: var(--bg-principal);
 }
+
+/* inicio do header*/
 
 header {
     width: 100%;
@@ -83,24 +87,6 @@ nav>a {
 
 }
 
-.button-card {
-    padding: 8px;
-    border-radius: 20px;
-    background-color: var(--marron-medio);
-    color: var(--texto-claro);
-}
-
-.button-lower {
-    padding: 20px;
-    border-radius: 40px;
-    background-color: var(--marron-medio);
-    color: var(--texto-escuro);
-    font-family: var(--texto-principal);
-    font-size: var(--texto-secundario-size);
-    margin-top: 30px;
-
-}
-
 .text-header {
     padding: 120px;
 }
@@ -125,6 +111,7 @@ nav>a {
 
 }
 
+/*secão - nossos bolos - cards*/
 
 .text-section-cakes {
     padding: 30px;
@@ -158,6 +145,14 @@ nav>a {
     font-size: var(--texto-secundario-size);
 }
 
+.button-card {
+    padding: 8px;
+    border-radius: 20px;
+    background-color: var(--marron-medio);
+    color: var(--texto-claro);
+}
+
+
 .cards {
     display: flex;
     justify-content: center;
@@ -185,6 +180,7 @@ nav>a {
 
 }
 
+/*secão inferior - produtos premium*/
 
 .section-lower {
     display: flex;
@@ -216,6 +212,18 @@ nav>a {
    
 
 }
+.button-lower {
+    padding: 20px;
+    border-radius: 40px;
+    background-color: var(--marron-medio);
+    color: var(--texto-escuro);
+    font-family: var(--texto-principal);
+    font-size: var(--texto-secundario-size);
+    margin-top: 30px;
+
+}
+
+/*Footer - final do site*/
 
 .title-footer {
     padding: 40px;
@@ -227,7 +235,6 @@ nav>a {
     font-size: var(--texto-secao-inferior-size);
     font-weight: var(--titulo-weight);
     color: var(--texto-claro);
-
 
 }
 
@@ -301,7 +308,7 @@ a {
 }
 
 
-
+/*Direitos reservados*/
 
 .rights {
     padding: 40px;
@@ -315,12 +322,3 @@ a {
 
 }
 
-@media (max-width: 320px) {
-    body {
-        width: 320px;
-    }
-
-    header {
-        
-    }
-}
